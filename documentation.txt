@@ -1,0 +1,58 @@
+1.HTML code:-
+The HTML code is structured into several key sections:
+
+a. <!DOCTYPE html> & <html>
+Defines the document type as HTML5.
+The <html> element is the root of the HTML document and has a lang="en" attribute to specify the language as English.
+b. <head>
+Contains metadata about the document, including character set (<meta charset="UTF-8">), viewport settings for responsiveness (<meta name="viewport" content="width=device-width, initial-scale=1.0">), the document title (<title>), and a link to the external CSS file (<link rel="stylesheet" href="style.css">).
+c. <body>
+The <body> contains the visible content of the web page, divided into several sections:
+i. Navigation Bar (<nav>)
+The navigation bar includes the site logo and links to different sections such as "Catalogue," "Fashion," "Favourite," "Lifestyle," and a "Sign Up" button.
+ii. Header Section (<section class="header">)
+The header section features a promotional message with a "Shop Now" button and a background image.
+iii. Banner Section (<section>)
+Displays a series of banners in a horizontal layout, showcasing different promotional images.
+iv. New Arrivals Section (<section>)
+Highlights new clothing arrivals with images and text descriptions for different categories like "Hoodies & Sweatshirts," "Coats & Parkas," and "Tees & T-Shirts."
+v. Sales Promotion Section (<section>)
+Promotes a "Payday Sale" with a large background image and text details about the offer, including a "Shop Now" button.
+vi. Favorite Collection Section (<section>)
+Displays popular collections with images and descriptions like "Trending on Instagram" and "All under $40."
+vii. App Download Section (<section>)
+Encourages users to download the app with a voucher offer, accompanied by buttons linking to the Google Play and Apple App Stores.
+viii. Promo Subscription Section (<section>)
+Provides a form for users to subscribe to the newsletter and receive monthly promotions.
+ix. Footer Section (<footer>)
+The footer contains links to various pages like "Company," "Quick Links," "Legal," and a copyright notice.
+
+
+
+
+2. CSS Styling
+The CSS code is organized to style the HTML structure effectively.
+
+a. Global Styles
+* selector is used to reset margin, padding, and box-sizing for all elements.
+body sets the height and width to 100%.
+b. Root Variables (:root)
+Defines custom CSS variables for primary colors, text colors, and maximum width.
+c. Navigation Bar (.nav_header, .nav_logo, .nav_link)
+The navigation bar is styled with flexbox to align the logo and links. The links change color on hover, and the "Sign Up" button has a hover effect.
+d. Header Section (.header, .header_section, .header_content, .header_image)
+The header section is styled to display a large promotional message with a responsive background image. Flexbox is used to align text and image elements.
+e. Banner Section (.banner, .banner_container, .banner_container ul li img)
+The banner section uses a flexbox to align promotional images horizontally. Each image is styled to fit within a specific height and width.
+f. New Arrivals Section (.arrival_part, .arrival_section, .arrival_text, .arrival_card_section, .arrival_card_image)
+The new arrivals section is styled with flexbox to display product cards with hover effects for images. The text within the cards is styled for readability.
+g. Sales Promotion Section (.sale_now_section, .sale_now_image, .sale_now_text)
+This section uses a background color and flexbox to position the sales promotion text and image. The "Shop Now" button has a hover effect.
+h. Favorite Collection Section (.your_favourite_part, .your_favourite_section, .your_favourite_card_section, .your_favourite_card_image)
+Similar to the new arrivals section, this section is styled to display popular collections with hover effects on images.
+i. App Download Section (.download_part, .download_section, .download_text, .download_image_store)
+The download section encourages app downloads with promotional text and store buttons. Flexbox is used for layout, and the section includes background images.
+j. Promo Subscription Section (.promo_section, .input_part)
+This section is styled to center text and input fields, with background colors and spacing for visual appeal.
+k. Footer Section (.footer_part, .footer_section, .link_section, .copyright_section)
+The footer is divided into sections for company information, quick links, legal information, and a copyright notice. Flexbox is used for layout, and text elements are styled for clarity.
